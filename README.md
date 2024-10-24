@@ -105,7 +105,6 @@ Splats will integrate with the three.js rendering pipeline and interact with oth
 - Set `enableThreeShaderIntegration: false` to disable integration with the three.js rendering pipeline. This will disable features like fog and tone mapping, but will improve performance
 
 ## Background Removal
-[![background-removal-demo](./assets/images/background-removal-preview.jpg)](#background-removal)
 
 Luma scenes can include multiple semantic layers. By default, all layers are rendered. To filter layers, use the `semanticsMask` property. This is a bit mask, so for example, to show only the foreground layer, set `semanticsMask = LumaSplatsSemantics.FOREGROUND`. To show both foreground and background, set `semanticsMask = LumaSplatsSemantics.FOREGROUND | LumaSplatsSemantics.BACKGROUND`
 
